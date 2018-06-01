@@ -1,0 +1,44 @@
+.name {
+	background-image: url('images/titleimg.jpg');
+	height: 500px;
+	width: 100%;
+	overflow: auto;
+}
+
+#namePlate {
+	font-family: 'Six Caps', sans-serif;
+	font-size: 340px;
+	color: white;
+	border: 20px solid white;
+	/*padding-top: 21%;*/
+	font-weight: 1000;
+}
+
+a {
+	font-family: 'Gruppo', cursive;
+	color: black!important;
+	font-size: 20px!important;
+}
+
+nav {
+	background-color: white!important;
+}
+
+.brand-logo {
+	font-family: 'Lobster', sans-serif;
+	font-size: 50px!important;
+	padding-left: 2%!important;
+}
+#project-images img {
+	height: 300px;
+	width: 300px;
+	margin-left: 25px;
+}
+footer {
+	height: 300px;
+	background-color: black;
+}
+.contact {
+	color: white;
+}
+
