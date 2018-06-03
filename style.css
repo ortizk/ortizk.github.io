@@ -3,6 +3,7 @@
 	height: 500px;
 	width: 100%;
 	overflow: auto;
+	box-shadow: 0 8px 6px -6px black;
 }
 
 #namePlate {
@@ -23,16 +24,32 @@ a {
 nav {
 	background-color: white!important;
 }
-
+/*Fix is to fix that fact that when the logo was next to the word, they were mis-aligned*/
+.fix {
+	display: flex;
+	align-items: center;
+	padding-left: 18%!important;
+}
+.fix p {
+	padding-left: 10px;
+}
 .brand-logo {
 	font-family: 'Lobster', sans-serif;
 	font-size: 50px!important;
 	padding-left: 2%!important;
 }
-#project-images img {
-	height: 300px;
-	width: 300px;
-	margin-left: 25px;
+.project-images {
+	height: 275px;
+	width: 275px;
+	box-shadow: 0 8px 6px -6px black;
+	/*margin-left: 25px;*/
+}
+.skillLogo {
+	height: 40px;
+	width: 40px;
+}
+.skillP {
+	display: inline-block;
 }
 footer {
 	height: 300px;
@@ -41,4 +58,31 @@ footer {
 .contact {
 	color: white;
 }
+.fade {
+  opacity: 1;
+}
+.white {
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	border-radius: 7px;
+}
+.linkLogo {
+	display: flex;
+	align-items: center;
+}
+/*.vl {
+	padding-left: 50%;
+    border-left: 2px solid black;
+    height: 500px;
+    align-self: center;*/
+/*    position: absolute;
+    background-color: black;
+    width: 2px;
+    top: 91px;
+    bottom: 0px;*/
+    /*left: 50%;*/
+}
+
+
 
