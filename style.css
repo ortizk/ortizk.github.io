@@ -61,15 +61,8 @@ footer {
 .fade {
   opacity: 1;
 }
-.white {
-	height: 50px;
-	width: 50px;
-	background-color: white;
-	border-radius: 7px;
-}
-.linkLogo {
-	display: flex;
-	align-items: center;
+.contactInfo {
+	
 }
 /*.vl {
 	padding-left: 50%;
@@ -82,7 +75,8 @@ footer {
     top: 91px;
     bottom: 0px;*/
     /*left: 50%;*/
-}
+/*}*/
+
 
 
 
