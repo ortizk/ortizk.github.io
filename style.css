@@ -66,7 +66,11 @@ footer {
   opacity: 1;
 }
 .contactInfo {
-	
+	padding-top: 60px;
+}
+.footer {
+	font-family: 'Gruppo', cursive;
+	color: white;
 }
 /*.vl {
 	padding-left: 50%;
