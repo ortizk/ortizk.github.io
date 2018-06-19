@@ -87,24 +87,31 @@
 			<div class="col m12 s12">	
 				<h2 class="footer">CONTACT</h2>
 				<a href="https://www.linkedin.com/in/karla-ortiz/" target="_blank"><img class="skillLogo" src="images/linkIn.png"></a>
-				<!-- <img class="skillLogo" src="images/email.png"> -->
+				
 
 
 		  <!-- Modal Trigger -->
-		<!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Email</a> -->
+		<a class="modal-trigger" href="#modal1"><img class="skillLogo" src="images/email.png"></a>
 
 		  <!-- Modal Structure -->
-<!-- 		<div id="modal1" class="modal">
+		<div id="modal1" class="modal">
 		    <div class="modal-content">
-		    	<h4>Get In Touch</h4>
-		      	<p>A bunch of text</p>
+		    	<h4 class="font">Get In Touch</h4>
+		      	<form action="https://formspree.io/ortizk@live.com" method="POST">
+				    <input type="text" name="name" placeholder="Name">
+				    <input type="email" name="_replyto" placeholder="Email">
+				    <input type="textarea" name="text" class="textarea" placeholder="Say It">
+				    <br>
+				    <input type="submit" class="btn form-btn" value="Send">
+				</form>
 		    </div>
 		    <div class="modal-footer">
-		      <a href="modal1" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+		      <a href="#name" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
 		    </div>
-		</div> -->
+		</div>
 		<!-- Modal Structure END-->
 		</div>
+
 	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

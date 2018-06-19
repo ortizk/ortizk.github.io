@@ -72,6 +72,17 @@ footer {
 	font-family: 'Gruppo', cursive;
 	color: white;
 }
+.form-btn {
+	margin-top: 50px;
+	border: 4px solid black!important;
+	background-color: transparent!important;
+	color: black;
+	font-family: 'Gruppo', cursive;
+}
+.textarea {
+	height: 100px;
+	width: 50vw;
+}
 /*.vl {
 	padding-left: 50%;
     border-left: 2px solid black;
