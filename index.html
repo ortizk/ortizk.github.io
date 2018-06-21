@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Gruppo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Six+Caps" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -36,22 +38,124 @@
   		<a name="projects"></a>	
   		<div class="fade" name ="projects">
 			<h2 class="center font">PROJECTS</h2>
-			<div class="row">
-				<div class="col m3">
-					<a href="https://ortizk.github.io/triviaGame/home.html" target="_blank"><img class="project-images" src="images/project1.jpg"></a>
+			<div class="row center">
+				<div class="col m6">
+					<!-- Modal Trigger -->
+					<a class="lobster waves-effect waves-light btn modal-trigger white enter-project" href="#modal2">Trivia Night</a>
 				</div>
-				<div class="col m3 offset-m1">
-					<a href="http://blacktogreen.herokuapp.com/" target="_blank"><img class="project-images" src="images/albumtemp.PNG"></a>
+				<div class="col m6">
+					<!-- Modal Trigger -->
+					<a class="lobster waves-effect waves-light btn modal-trigger white enter-project" href="#modal3">Black To Green</a>
 				</div>
-				<div class="col m3 offset-m1">
-					<a href="https://ruffdateclient.herokuapp.com/" target="_blank"><img class="project-images" src="images/project3.png"></a>
+			</div>
+			<div class="row center">
+				<div class="col m12">
+					<!-- Modal Trigger -->
+					<a class="lobster waves-effect waves-light btn modal-trigger white enter-project" href="#modal4">OffLeash</a>
 				</div>
 			</div>
 		</div>
+		
+
+		<!-- Modal Structure PROJECT 1 -->
+		<div id="modal2" class="modal">
+			<div class="modal-content">
+				<div class="row">
+					<div class="col m11">
+		  				<h4 class="font">Trivia Night</h4>
+		  				<p class="font">Javascript | HTML | CSS | Jquery</p>
+		  			</div>
+		  			<div class="col m1">
+		  				<a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="material-icons">clear</i></a>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m9">
+		  				<img class="" src="images/trivMU.png">
+		  			</div>
+		  			<div class="col m3">
+		  				<p class="font info-font">A 10 question trivia game with a mini-game to determine the players starting health. Answering questions right or wrong adds or diminishes health. Health, in this game, is the amount of beer you have in your mug.</p>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m12 center">
+		  				<a class="project-btn" href="https://ortizk.github.io/triviaGame/home.html" target="_blank">Live Site</a>
+		  				<a class="project-btn" href="https://github.com/ortizk/triviaGame" target="_blank">GitHub</a>
+		  			</div>
+		  		</div>
+		  		
+			</div>
+		</div>
+		<!-- Modal Structure PROJECT 1 END-->
+
+		<!-- Modal Structure PROJECT 2 -->
+		<div id="modal3" class="modal">
+			<div class="modal-content">
+				<div class="row">
+					<div class="col m11">
+		  				<h4 class="font">Black To Green</h4>
+		  				<p class="font">Javascript | EJS | CSS | Jquery | Bootstrap | Mongo | Mongoose | AJAX</p>
+		  			</div>
+		  			<div class="col m1">
+		  				<a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="material-icons">clear</i></a>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m9">
+		  				<img class="" src="images/blackMU.png">
+		  			</div>
+		  			<div class="col m3">
+		  				<p class="font info-font">An app for plant lovers with black thumbs. A list of hearty, hard-to-kill plants with care instructions. Users can leave their tips and commentsfor specific plants for other users to see.</p>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m12 center">
+		  				<a class="project-btn" href="http://blacktogreen.herokuapp.com/" target="_blank">Live Site</a>
+		  				<a class="project-btn" href="https://github.com/ortizk/plantApp" target="_blank">GitHub</a>
+		  			</div>
+		  		</div>
+		  		
+			</div>
+		</div>
+		<!-- Modal Structure END-->
+
+
+		<!-- Modal Structure PROJECT 3 -->
+		<div id="modal4" class="modal">
+			<div class="modal-content">
+				<div class="row">
+					<div class="col m11">
+		  				<h4 class="font">Off Leash</h4>
+		  				<p class="font">React | Axios | CSS | Jquery | Materialize | Mongo</p>
+		  			</div>
+		  			<div class="col m1">
+		  				<a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="material-icons">clear</i></a>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m9">
+		  				<img class="" src="images/offleashMU.png">
+		  			</div>
+		  			<div class="col m3">
+		  				<p class="font info-font">Dogs need friends too! An app for dogs and their owners. Allows users to find other dogs in their area for walks and play dates</p>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m12 center">
+		  				<a class="project-btn" href="https://ruffdateclient.herokuapp.com/" target="_blank">Live Site</a>
+		  				<a class="project-btn" href="https://github.com/ortizk/pupDate" target="_blank">GitHub</a>
+		  			</div>
+		  		</div>
+		  		
+			</div>
+		</div>
+		<!-- Modal Structure END-->
+
+
 		<div class="fade">		
 			<a name="about"></a>
 			<h2 class="center font ">ABOUT</h2>
-			<p class="font center" >I am an artistically-inclined, analytical full stack web developer driven by clean code, products and design. While an independent thinker, I cultivate energy from my surroundings and community. It is this sense of connectedness that promotes my full-circle understanding of each element of a problem and project. With a balance between holistic comprehension, self-sufficiency and my ability to summarize personality, mood, and theme throughout my design. My products showcase my integrity to a high standard of deliverables. </p>
+			<p class="font info-font center" >I am an artistically-inclined, analytical full stack web developer driven by clean code, products and design. While an independent thinker, I cultivate energy from my surroundings and community. It is this sense of connectedness that promotes my full-circle understanding of each element of a problem and project. With a balance between holistic comprehension, self-sufficiency and my ability to summarize personality, mood, and theme throughout my design. My products showcase my integrity to a high standard of deliverables. </p>
 		</div>
 		<a name="skills"></a>	
 		<div class="fade">	
@@ -90,23 +194,23 @@
 	</div>
 	<footer>
 		<a name="contact"></a>	
-		<div class="row center contactInfo">
+		<!-- <div class="row center contactInfo">
 			<div class="col m12 s12">	
-				<h2 class="footer">CONTACT</h2>
-			<div class="row">	
-				<div class="col m4 s12">
-					<a href="https://www.linkedin.com/in/karla-ortiz/" target="_blank"><img class="skillLogo" src="images/linkIn.png"></a>
-				</div>
-				<div class="col m4 s12">
+				<h2 class="footer">CONTACT</h2> -->
+			<div class="row contactInfo center">	
+				<div class="col m12">
+					<a href="https://github.com/ortizk" target="_blank"><img class="git-logo contact-logo" src="images/github.png"></a>
+
+					<a href="https://www.linkedin.com/in/karla-ortiz/" target="_blank"><img class="skillLogo contact-logo" src="images/linkIn.png"></a>	
+
 					<!-- Modal Trigger -->
 					<a class="modal-trigger" href="#modal1"><img class="skillLogo" src="images/email.png"></a>
+				
+					
 				</div>
-				<div class="col m4 s12">
-					<a href="https://github.com/ortizk" target="_blank"><img class="skillLogo" src="images/github.png"></a>
-				</div>
-			</div>
+			<!-- </div> -->
 
-		  <!-- Modal Structure -->
+		  <!-- Modal Structure EMAIL -->
 		<div id="modal1" class="modal">
 		    <div class="modal-content">
 		    	<h4 class="font">Get In Touch</h4>
