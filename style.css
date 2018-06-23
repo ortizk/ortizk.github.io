@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .name {
 	background-image: url('images/titleimg.jpg');
 	height: 500px;
@@ -103,11 +107,18 @@ footer {
 
 .project-btn {
 	border: 4px solid black;
-	padding: 10px 20px;
+	/*padding: 10px 20px;*/
 }
 .enter-project {
 	width: 300px!important;
 	height: 150px!important;
+	padding-top: 50px;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 300px;
+    margin-left: 50%;
 }
 
 /*MODAL STUFF*/
@@ -117,6 +128,18 @@ footer {
 	max-height: 90% !important; 
 	} 
 } 
+
+/*RESPONSIVE*/
+
+/*@media (max-width: 600px) {
+  .flex-s {
+    display: flex!important;
+    flex-direction: column!important; 
+  }
+  .box-a {
+    order: 2!important; 
+  }
+}*/
 
 
 
