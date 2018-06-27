@@ -1,7 +1,10 @@
 html {
 	scroll-behavior: smooth;
 }
-
+.contactH {
+	padding-top: 7%;
+	color: white;
+}
 .name {
 	background-image: url('images/titleimg.jpg');
 	height: 500px;
@@ -86,9 +89,9 @@ footer {
 .fade {
   opacity: 1;
 }
-.contactInfo {
-	padding-top: 15%;
-}
+/*.contactInfo {
+	padding-top: 10%;
+}*/
 .footer {
 	font-family: 'Gruppo', cursive;
 	color: white;
@@ -119,6 +122,10 @@ footer {
     border-left: 1px solid black;
     height: 300px;
     margin-left: 50%;
+}
+
+footer {
+	margin-top: 17%;
 }
 
 /*MODAL STUFF*/
