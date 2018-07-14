@@ -1,0 +1,113 @@
+			MODAL TRIGGERS
+
+			<!-- <div class="row center">
+				<div class="col m6">
+					<a class="lobster waves-effect waves-light btn modal-trigger white enter-project" href="#modal2">Trivia Night</a>
+				</div>
+				<div class="col m6">
+					<a class="lobster waves-effect waves-light btn modal-trigger white enter-project" href="#modal3">Black To Green</a>
+				</div>
+			</div>
+			<div class="row center">
+				<div class="col m12">
+					<a class="lobster waves-effect waves-light btn modal-trigger white enter-project" href="#modal4">OffLeash</a>
+				</div>
+			</div> -->
+
+
+
+
+
+		<!-- Modal Structure PROJECT 1 -->
+		<!-- <div id="modal2" class="modal">
+			<div class="modal-content">
+				<div class="row">
+					<div class="col m11">
+		  				<h4 class="font">Trivia Night</h4>
+		  				<p class="font">Javascript | HTML | CSS | Jquery</p>
+		  			</div>
+		  			<div class="col m1">
+		  				<a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="material-icons">clear</i></a>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m9">
+		  				<img class="" src="images/trivMU.png">
+		  			</div>
+		  			<div class="col m3">
+		  				<p class="font info-font">A 10 question trivia game with a mini-game to determine the players starting health. Answering questions right or wrong adds or diminishes health. Health, in this game, is the amount of beer you have in your mug.</p>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m12 center">
+		  				<a class="project-btn" href="https://ortizk.github.io/triviaGame/home.html" target="_blank">Live Site</a>
+		  				<a class="project-btn" href="https://github.com/ortizk/triviaGame" target="_blank">GitHub</a>
+		  			</div>
+		  		</div>
+		  		
+			</div>
+		</div> -->
+		<!-- Modal Structure PROJECT 1 END-->
+
+		<!-- Modal Structure PROJECT 2 -->
+		<!-- <div id="modal3" class="modal">
+			<div class="modal-content">
+				<div class="row">
+					<div class="col m11">
+		  				<h4 class="font">Black To Green</h4>
+		  				<p class="font">Javascript | EJS | CSS | Jquery | Bootstrap | Mongo | Mongoose | AJAX</p>
+		  			</div>
+		  			<div class="col m1">
+		  				<a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="material-icons">clear</i></a>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m9">
+		  				<img class="" src="images/blackMU.png">
+		  			</div>
+		  			<div class="col m3">
+		  				<p class="font info-font">An app for plant lovers with black thumbs. A list of hearty, hard-to-kill plants with care instructions. Users can leave their tips and commentsfor specific plants for other users to see.</p>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m12 center">
+		  				<a class="project-btn" href="http://blacktogreen.herokuapp.com/" target="_blank">Live Site</a>
+		  				<a class="project-btn" href="https://github.com/ortizk/plantApp" target="_blank">GitHub</a>
+		  			</div>
+		  		</div>
+		  		
+			</div>
+		</div> -->
+		<!-- Modal Structure END-->
+
+
+		<!-- Modal Structure PROJECT 3 -->
+		<!-- <div id="modal4" class="modal">
+			<div class="modal-content">
+				<div class="row">
+					<div class="col m11">
+		  				<h4 class="font">Off Leash</h4>
+		  				<p class="font">React | Axios | CSS | Jquery | Materialize | Mongo</p>
+		  			</div>
+		  			<div class="col m1">
+		  				<a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="material-icons">clear</i></a>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col s12 m9">
+		  				<img class="" src="images/offleashMU.png">
+		  			</div>
+		  			<div class="col s12 m3">
+		  				<p class="font info-font">Dogs need friends too! An app for dogs and their owners. OffLeash allows users to find other dogs in their area for walks and play dates</p>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+		  			<div class="col m12 center">
+		  				<a class="project-btn" href="https://ruffdateclient.herokuapp.com/" target="_blank">Live Site</a>
+		  				<a class="project-btn" href="https://github.com/ortizk/pupDate" target="_blank">GitHub</a>
+		  			</div>
+		  		</div>
+		  		
+			</div>
+		</div> -->
+		<!-- Modal Structure END-->

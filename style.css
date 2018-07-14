@@ -114,24 +114,18 @@ html {
 nav {
 	background-color: white!important;
 }
-
-.proj1 {
-	/*background-color: rgba(70, 70, 70, .3);*/
-	width: 100vw;
-	height: 650px;
+nav ul li:hover {
+	background-color: rgba(188, 157, 168, .2);
 }
 
 .project-btn {
 	border: 4px solid black;
 	padding: 10px 20px;
+	transition: background-color 0.5s ease;
 }
-/*
-.project-images {
-	height: 275px;
-	width: 275px;
-	box-shadow: 0 8px 6px -6px black;
-	margin-left: 25px;
-}*/
+.project-btn:hover {
+	background-color: rgba(188, 157, 168, .7);
+}
 
 .projectImg {
 	width: 100%!important;
@@ -181,6 +175,7 @@ nav {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
 	#namePlate {
 		font-size: 20vh;
 		border: none;
@@ -194,9 +189,6 @@ nav {
 		height: 50vh;
 		width: auto;
 		float: none;
-	}
-	.project-btn {
-
 	}
 	.rightHandImg {
 		width: 100%!important;
