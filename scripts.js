@@ -1,7 +1,7 @@
 console.log('sanity check')
 
 
-//----FADE IN AND OUT ON SCROLL UP OR DOWN
+// ----FADE IN AND OUT ON SCROLL UP OR DOWN
 $(window).on("load",function() {
   $(window).scroll(function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
