@@ -89,24 +89,27 @@ html {
 } 
 
 .name {
-	background-image: url('images/titleimg.jpg');
-	height: 500px;
-	width: 100%;
-	overflow: auto;
-	box-shadow: 0 8px 6px -6px black;
-	margin-bottom: 150px;
+	/*background-image: url('images/titleimg.jpg');*/
+	/*height: 500px;*/
+	/*width: 100%;*/
+	/*overflow: auto;*/
+	/*box-shadow: 0 8px 6px -6px black;*/
+	/*margin-bottom: 150px;*/
 }
 
 #namePlate {
 	font-family: 'Six Caps', sans-serif;
-	font-size: 340px;
-	color: white;
-	border: 20px solid white;
+	font-size: 200px;
+	color: black;
+	/*margin-left: -180px; */
+	/*border: 20px solid white;*/
 	/*padding-top: 21%;*/
 	font-weight: 1000;
-	text-shadow: 1px 1px 10px #000000;
+	/*text-shadow: 1px 1px 10px #000000;*/
 }
-
+.noPadding {
+	padding: 0!important;
+}
 .lobster {
 	font-family: 'Lobster', cursive!important;
 	text-transform: none!important;
@@ -120,7 +123,10 @@ nav {
 nav ul li:hover {
 	background-color: rgba(188, 157, 168, .5);
 }
-
+.openingImage {
+	width: 100%!important;
+	height: 80vh;
+}
 .project-btn {
 	border: 4px solid black;
 	padding: 10px 20px;
@@ -134,7 +140,6 @@ nav ul li:hover {
 	width: 100%!important;
 	height: auto;
 }
-
 .rightHandImg {
 	float: right;
 	width: 50%!important;
@@ -182,19 +187,21 @@ nav ul li:hover {
 @media only screen and (max-width: 600px) {
 
 	#namePlate {
-		font-size: 20vh;
+		font-size: 15vh;
 		border: none;
 	}
-	.name {
-		height: 200px;
-		margin-bottom: 100px;
+	.mediaCenter {
+		text-align: center;
 	}
-	.
+	.openingImage {
+		display: none;
+	}
+/*	.
 	.projectImg {
 		height: 50vh;
 		width: auto;
 		float: none;
-	}
+	}*/
 	.rightHandImg {
 		width: 100%!important;
 	}
