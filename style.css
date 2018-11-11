@@ -110,6 +110,10 @@ html {
 	font-weight: 1000;
 	/*text-shadow: 1px 1px 10px #000000;*/
 }
+.newFeature {
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
 .noPadding {
 	padding: 0!important;
 }
